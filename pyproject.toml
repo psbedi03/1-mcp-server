@@ -1,0 +1,19 @@
+[project]
+name = "1-mcp-server"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Parteek Singh Bedi", email = "ps.bedi0395@gmail.com" }
+]
+requires-python = ">=3.10"
+dependencies = [
+    "mcp[cli]>=2.3.0",
+]
+
+[project.scripts]
+1-mcp-server = "1_mcp_server:main"
+
+[build-system]
+requires = ["uv_build>=0.12.22,<0.13.0"]
+build-backend = "uv_build"
