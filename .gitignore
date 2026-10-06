@@ -3,3 +3,6 @@
 
 # Mac junk
 .DS_Store
+
+__pycache__/
+*.py[oc]
